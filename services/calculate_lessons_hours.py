@@ -22,6 +22,7 @@ def calculate_lessons_hours(data, teacher, month):
                             for group in groups:
                                 key = (subject, group, type_lesson)
                                 lesson_counts[key] += 1
+                                print(f"DEBUG: Added lesson: {key}")
     # Prepare data for DataFrame
     rows = []
     for (subject, group, type_lesson), count in lesson_counts.items():
@@ -41,22 +42,31 @@ def calculate_lessons_hours(data, teacher, month):
         df = df.sort_values(['Subject', 'Group', 'Type of Lesson']).reset_index(drop=True)
     output = BytesIO()
 
-    with pd.ExcelWriter(output, engine='openpyxl') as writer:
+    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
         df.to_excel(writer, sheet_name='Lessons Summary', index=False)
 
-        # Adjust column widths
+        # Get the workbook and worksheet
+        workbook = writer.book
         worksheet = writer.sheets['Lessons Summary']
-        for column in worksheet.columns:
-            max_length = 0
-            column_letter = column[0].column_letter
-            for cell in column:
-                try:
-                    if len(str(cell.value)) > max_length:
-                        max_length = len(str(cell.value))
-                except:
-                    pass
-            adjusted_width = min(max_length + 2, 50)
-            worksheet.column_dimensions[column_letter].width = adjusted_width
 
-        output.seek(0)
-        return output
+        # Add formatting
+        header_format = workbook.add_format({
+            'bold': True,
+            'bg_color': '#2C3E50',
+            'font_color': 'white',
+            'border': 1
+        })
+
+        # Write headers with formatting
+        for col_num, value in enumerate(df.columns.values):
+            worksheet.write(0, col_num, value, header_format)
+
+        # Adjust column widths
+        for i, col in enumerate(df.columns):
+            column_width = max(df[col].astype(str).map(len).max(), len(col)) + 2
+            worksheet.set_column(i, i, min(column_width, 50))
+    output.seek(0)
+    print(f"DEBUG: BytesIO size after seek: {output.getbuffer().nbytes} bytes")
+    if output.getbuffer().nbytes == 0:
+        return None
+    return output
