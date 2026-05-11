@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My App{% endblock %}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!-- Meta tags -->
+    <meta name="description" content="Generate teacher schedule reports">
+    <meta name="author" content="Your Name">
+
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body>
+    <header>
+
+    </header>
+<main>
+    {% block content %}{% endblock %}
+</main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Составление отчетов. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="/static/js/main.js"></script>
+    {% block extra_scripts %}{% endblock %}
+</body>
+</html>
