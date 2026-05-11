@@ -1,0 +1,1093 @@
+[
+  {
+    "week_number": 14,
+    "days": [
+      {
+        "weekday": 1,
+        "week_number": 14,
+        "lessons": [
+          {
+            "id": 7933,
+            "subject": "Практикум по программированию",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "пр.",
+            "time": 2,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 7934,
+            "subject": "Практикум по программированию",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-504",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "week_number": 14,
+        "lessons": [
+          {
+            "id": 7921,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-609",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 7953,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-3"
+            ]
+          },
+          {
+            "id": 7906,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-221",
+            "type_lesson": "л.",
+            "time": 3,
+            "group": [
+              "124-1-1",
+              "124-1-2",
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "week_number": 14,
+        "lessons": [
+          {
+            "id": 7927,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 4,
+            "group": [
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 8142,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-506",
+            "type_lesson": "пр.",
+            "time": 5,
+            "group": [
+              "123-1-1",
+              "123-1-2"
+            ]
+          },
+          {
+            "id": 8143,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-506",
+            "type_lesson": "л.",
+            "time": 6,
+            "group": [
+              "123-1-1",
+              "123-1-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "week_number": 14,
+        "lessons": [
+          {
+            "id": 7943,
+            "subject": "Информационная безопасность",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-602",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 7911,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-1-1"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "week_number": 14,
+        "lessons": [
+          {
+            "id": 7915,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "пр.",
+            "time": 4,
+            "group": [
+              "124-1-1",
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 8151,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 5,
+            "group": [
+              "123-1-1"
+            ]
+          },
+          {
+            "id": 8165,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-607",
+            "type_lesson": "лаб.",
+            "time": 6,
+            "group": [
+              "123-1-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 1,
+        "week_number": 0,
+        "lessons": null
+      }
+    ],
+    "dates": {
+      "current_date": "7.05.2026",
+      "date_start": "13.04.2026",
+      "date_end": "18.04.2026",
+      "dates": [
+        {
+          "date": "13.04.2026",
+          "weekday": 1
+        },
+        {
+          "date": "14.04.2026",
+          "weekday": 2
+        },
+        {
+          "date": "15.04.2026",
+          "weekday": 3
+        },
+        {
+          "date": "16.04.2026",
+          "weekday": 4
+        },
+        {
+          "date": "17.04.2026",
+          "weekday": 5
+        },
+        {
+          "date": "18.04.2026",
+          "weekday": 6
+        }
+      ]
+    },
+    "day_time": "09:50-11:20"
+  },
+  {
+    "week_number": 15,
+    "days": [
+      {
+        "weekday": 1,
+        "week_number": 15,
+        "lessons": [
+          {
+            "id": 8671,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "пр.",
+            "time": 1,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 8672,
+            "subject": "Практикум по программированию",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "week_number": 15,
+        "lessons": [
+          {
+            "id": 8675,
+            "subject": "Информационная безопасность",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-609",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 8738,
+            "subject": "Информационная безопасность",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-602",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "Д-324-1"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "week_number": 15,
+        "lessons": [
+          {
+            "id": 8693,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-3"
+            ]
+          },
+          {
+            "id": 8663,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 8680,
+            "subject": "Информационная безопасность",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 4,
+            "group": [
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "week_number": 15,
+        "lessons": [
+          {
+            "id": 8665,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 8682,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "week_number": 15,
+        "lessons": [
+          {
+            "id": 8654,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-609",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "124-1-1"
+            ]
+          },
+          {
+            "id": 8669,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-607",
+            "type_lesson": "лаб.",
+            "time": 4,
+            "group": [
+              "124-1-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 6,
+        "week_number": 15,
+        "lessons": [
+          {
+            "id": 8862,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "123-1-1"
+            ]
+          },
+          {
+            "id": 8877,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "3 СДО Moodle ДОА",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "123-1-2"
+            ]
+          }
+        ]
+      }
+    ],
+    "dates": {
+      "current_date": "7.05.2026",
+      "date_start": "20.04.2026",
+      "date_end": "25.04.2026",
+      "dates": [
+        {
+          "date": "20.04.2026",
+          "weekday": 1
+        },
+        {
+          "date": "21.04.2026",
+          "weekday": 2
+        },
+        {
+          "date": "22.04.2026",
+          "weekday": 3
+        },
+        {
+          "date": "23.04.2026",
+          "weekday": 4
+        },
+        {
+          "date": "24.04.2026",
+          "weekday": 5
+        },
+        {
+          "date": "25.04.2026",
+          "weekday": 6
+        }
+      ]
+    },
+    "day_time": "09:50-11:20"
+  },
+  {
+    "week_number": 16,
+    "days": [
+      {
+        "weekday": 1,
+        "week_number": 16,
+        "lessons": [
+          {
+            "id": 9378,
+            "subject": "Практикум по программированию",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 9379,
+            "subject": "Практикум по программированию",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "пр.",
+            "time": 2,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 9380,
+            "subject": "Практикум по программированию",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-504",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "week_number": 16,
+        "lessons": [
+          {
+            "id": 9367,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-609",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 9396,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-3"
+            ]
+          },
+          {
+            "id": 9354,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-221",
+            "type_lesson": "л.",
+            "time": 3,
+            "group": [
+              "124-1-1",
+              "124-1-2",
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "week_number": 16,
+        "lessons": [
+          {
+            "id": 9372,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 4,
+            "group": [
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 9551,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-506",
+            "type_lesson": "пр.",
+            "time": 5,
+            "group": [
+              "123-1-1",
+              "123-1-2"
+            ]
+          },
+          {
+            "id": 9552,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-506",
+            "type_lesson": "л.",
+            "time": 6,
+            "group": [
+              "123-1-1",
+              "123-1-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "week_number": 16,
+        "lessons": [
+          {
+            "id": 9389,
+            "subject": "Информационная безопасность",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-602",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 9359,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-1-1"
+            ]
+          },
+          {
+            "id": 9375,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-607",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "124-1-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 1,
+        "week_number": 0,
+        "lessons": null
+      },
+      {
+        "weekday": 6,
+        "week_number": 16,
+        "lessons": [
+          {
+            "id": 9362,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "пр.",
+            "time": 1,
+            "group": [
+              "124-1-1",
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 9571,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-605",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "123-1-2"
+            ]
+          },
+          {
+            "id": 9559,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "123-1-1"
+            ]
+          }
+        ]
+      }
+    ],
+    "dates": {
+      "current_date": "7.05.2026",
+      "date_start": "27.04.2026",
+      "date_end": "2.05.2026",
+      "dates": [
+        {
+          "date": "27.04.2026",
+          "weekday": 1
+        },
+        {
+          "date": "28.04.2026",
+          "weekday": 2
+        },
+        {
+          "date": "29.04.2026",
+          "weekday": 3
+        },
+        {
+          "date": "30.04.2026",
+          "weekday": 4
+        },
+        {
+          "date": "1.05.2026",
+          "weekday": 5
+        },
+        {
+          "date": "2.05.2026",
+          "weekday": 6
+        }
+      ]
+    },
+    "day_time": "09:50-11:20"
+  },
+  {
+    "week_number": 17,
+    "days": [
+      {
+        "weekday": 1,
+        "week_number": 17,
+        "lessons": [
+          {
+            "id": 10013,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "пр.",
+            "time": 1,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 10014,
+            "subject": "Практикум по программированию",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "week_number": 17,
+        "lessons": [
+          {
+            "id": 10072,
+            "subject": "Информационная безопасность",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-602",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "Д-324-1"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "week_number": 17,
+        "lessons": [
+          {
+            "id": 10034,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-3"
+            ]
+          },
+          {
+            "id": 10005,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-1-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "week_number": 17,
+        "lessons": [
+          {
+            "id": 10007,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 10021,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 10022,
+            "subject": "Информационная безопасность",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-504",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "week_number": 17,
+        "lessons": [
+          {
+            "id": 9995,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-609",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "124-1-1"
+            ]
+          },
+          {
+            "id": 10180,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-604",
+            "type_lesson": "лаб.",
+            "time": 5,
+            "group": [
+              "123-1-1"
+            ]
+          },
+          {
+            "id": 10196,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-609",
+            "type_lesson": "лаб.",
+            "time": 6,
+            "group": [
+              "123-1-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 1,
+        "week_number": 0,
+        "lessons": null
+      }
+    ],
+    "dates": {
+      "current_date": "7.05.2026",
+      "date_start": "4.05.2026",
+      "date_end": "9.05.2026",
+      "dates": [
+        {
+          "date": "4.05.2026",
+          "weekday": 1
+        },
+        {
+          "date": "5.05.2026",
+          "weekday": 2
+        },
+        {
+          "date": "6.05.2026",
+          "weekday": 3
+        },
+        {
+          "date": "7.05.2026",
+          "weekday": 4
+        },
+        {
+          "date": "8.05.2026",
+          "weekday": 5
+        },
+        {
+          "date": "9.05.2026",
+          "weekday": 6
+        }
+      ]
+    },
+    "day_time": "09:50-11:20"
+  },
+  {
+    "week_number": 18,
+    "days": [
+      {
+        "weekday": 1,
+        "week_number": 18,
+        "lessons": [
+          {
+            "id": 10643,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-609",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 10658,
+            "subject": "Практикум по программированию",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-502",
+            "type_lesson": "пр.",
+            "time": 2,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 10659,
+            "subject": "Практикум по программированию",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-504",
+            "type_lesson": "лаб.",
+            "time": 3,
+            "group": [
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "week_number": 18,
+        "lessons": [
+          {
+            "id": 10676,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-3"
+            ]
+          },
+          {
+            "id": 10632,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-221",
+            "type_lesson": "л.",
+            "time": 3,
+            "group": [
+              "124-1-1",
+              "124-1-2",
+              "124-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "week_number": 18,
+        "lessons": [
+          {
+            "id": 10650,
+            "subject": "Операционные системы",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 4,
+            "group": [
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 10834,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-506",
+            "type_lesson": "л.",
+            "time": 6,
+            "group": [
+              "123-1-1",
+              "123-1-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "week_number": 18,
+        "lessons": [
+          {
+            "id": 10666,
+            "subject": "Информационная безопасность",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-602",
+            "type_lesson": "лаб.",
+            "time": 1,
+            "group": [
+              "124-2"
+            ]
+          },
+          {
+            "id": 10636,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-603",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-1-1"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "week_number": 18,
+        "lessons": [
+          {
+            "id": 10641,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "пр.",
+            "time": 4,
+            "group": [
+              "124-1-1",
+              "124-1-2"
+            ]
+          },
+          {
+            "id": 10839,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-606",
+            "type_lesson": "лаб.",
+            "time": 5,
+            "group": [
+              "123-1-1"
+            ]
+          },
+          {
+            "id": 10854,
+            "subject": "Разработка мобильных приложений",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-607",
+            "type_lesson": "лаб.",
+            "time": 6,
+            "group": [
+              "123-1-2"
+            ]
+          }
+        ]
+      },
+      {
+        "weekday": 6,
+        "week_number": 18,
+        "lessons": [
+          {
+            "id": 10673,
+            "subject": "Основы работы в JavaScript",
+            "teacher": "Большаков П.Д.",
+            "auditory": "2-605",
+            "type_lesson": "лаб.",
+            "time": 2,
+            "group": [
+              "124-2"
+            ]
+          }
+        ]
+      }
+    ],
+    "dates": {
+      "current_date": "7.05.2026",
+      "date_start": "11.05.2026",
+      "date_end": "16.05.2026",
+      "dates": [
+        {
+          "date": "11.05.2026",
+          "weekday": 1
+        },
+        {
+          "date": "12.05.2026",
+          "weekday": 2
+        },
+        {
+          "date": "13.05.2026",
+          "weekday": 3
+        },
+        {
+          "date": "14.05.2026",
+          "weekday": 4
+        },
+        {
+          "date": "15.05.2026",
+          "weekday": 5
+        },
+        {
+          "date": "16.05.2026",
+          "weekday": 6
+        }
+      ]
+    },
+    "day_time": "09:50-11:20"
+  }
+]
