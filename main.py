@@ -1,4 +1,5 @@
 import logging
+from urllib.parse import quote
 
 from fastapi import FastAPI, Request, Form, HTTPException
 from fastapi.templating import Jinja2Templates
@@ -14,30 +15,29 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory = "templates") #import ninja2 templates directory
 logger = logging.getLogger(__name__)
 @app.get("/")
-def index(request: Request):
-    return templates.TemplateResponse("main.html", {
-        "request": request,
+async def main(request: Request):
+    months = [
+        {"number": 1, "name": "Январь"},
+        {"number": 2, "name": "Февраль"},
+        {"number": 3, "name": "Март"},
+        {"number": 4, "name": "Апрель"},
+        {"number": 5, "name": "Май"},
+        {"number": 6, "name": "Июнь"},
+        {"number": 7, "name": "Июль"},
+        {"number": 8, "name": "Август"},
+        {"number": 9, "name": "Сентябрь"},
+        {"number": 10, "name": "Октябрь"},
+        {"number": 11, "name": "Ноябрь"},
+        {"number": 12, "name": "Декабрь"}
+    ]
+    return templates.TemplateResponse(name="main.html", request=request ,context={
         "title": "Отчеты для преподавателей ХГУ",
-        "month": [
-            {"number": 1, "name": "Январь"},
-            {"number": 2, "name": "Февраль"},
-            {"number": 3, "name": "Март"},
-            {"number": 4, "name": "Апрель"},
-            {"number": 5, "name": "Май"},
-            {"number": 6, "name": "Июнь"},
-            {"number": 7, "name": "Июль"},
-            {"number": 8, "name": "Август"},
-            {"number": 9, "name": "Сентябрь"},
-            {"number": 10, "name": "Октябрь"},
-            {"number": 11, "name": "Ноябрь"},
-            {"number": 12, "name": "Декабрь"}
-        ]})
+        "months": months})
 @app.post("/generate-report")
 async def generate_report(
         request: Request,
         teacher: str = Form(...),
         month: int = Form(...)):
-
     try:
         schedule = await get_teacher_schedule(teacher, month)
     except Exception as e:
@@ -65,9 +65,12 @@ async def generate_report(
             status_code=500,
             detail="Ошибка при генерации отчета."
         )
-
+    encoded_filename = quote(f"{teacher}_{month}_report.xlsx", safe="")
+    headers = {
+        "Content-Disposition": f"attachment; filename*=UTF-8''{encoded_filename}"
+    }
     return StreamingResponse(
         xlsx_report,
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        headers={"Content-Disposition": f"attachment; filename={teacher}_{month}_report.xlsx"}
+        headers=headers
     )
