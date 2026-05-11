@@ -1,9 +1,6 @@
-import json
 from io import BytesIO
-
 import pandas as pd
 from collections import defaultdict
-from pathlib import Path
 def calculate_lessons_hours(data, teacher, month):
     # Dictionary to store counts
     lesson_counts = defaultdict(int)
