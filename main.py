@@ -1,6 +1,8 @@
 import logging
+import multiprocessing
 from urllib.parse import quote
 
+import uvicorn
 from fastapi import FastAPI, Request, Form, HTTPException
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import FileResponse
@@ -74,3 +76,11 @@ async def generate_report(
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         headers=headers
     )
+if __name__ == "__main__":
+    multiprocessing.freeze_support()
+
+    print(f"\n Сервис запущен!")
+    print(f" Сервис доступен по ссылке: http://localhost:80")
+    print(f" Нажмите Ctrl+C для остановки\n")
+
+    uvicorn.run(app, host="localhost", port=80)
