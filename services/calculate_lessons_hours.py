@@ -19,7 +19,6 @@ def calculate_lessons_hours(data, teacher, month):
                             for group in groups:
                                 key = (subject, group, type_lesson)
                                 lesson_counts[key] += 1
-                                print(f"DEBUG: Added lesson: {key}")
     # Prepare data for DataFrame
     rows = []
     for (subject, group, type_lesson), count in lesson_counts.items():
@@ -63,7 +62,7 @@ def calculate_lessons_hours(data, teacher, month):
             column_width = max(df[col].astype(str).map(len).max(), len(col)) + 2
             worksheet.set_column(i, i, min(column_width, 50))
     output.seek(0)
-    print(f"DEBUG: BytesIO size after seek: {output.getbuffer().nbytes} bytes")
+    #print(f"DEBUG: BytesIO size after seek: {output.getbuffer().nbytes} bytes")
     if output.getbuffer().nbytes == 0:
         return None
     return output
